@@ -12,5 +12,8 @@ We cite the creators of the dataset:
 There are a few requirements to run the project,
 of which pycoco and Cpython may cause some problems installing.
 
+download.py downloads the dataset
+after that train can be executed
 
+~ David Jäck, Cedric Bender 11.08.2020
 
