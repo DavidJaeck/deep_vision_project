@@ -226,6 +226,7 @@ def visualize_both_masks(mask_pred, mask_true):
 
 
 # two methods for general use:
+# written by Cedric
 def mask_on_picture_binary(index, net_name, net_classes):
     """
     draws the predicted inverted background class on the original image
@@ -269,7 +270,7 @@ def mask_on_picture_binary(index, net_name, net_classes):
         plt.imshow(combination)
         plt.savefig(f"./visualisations/mask_index_visualization/mask_vis_binary_index{index}")
 
-
+# written by Cedric
 def mask_on_picture_n_class(index, net_name, net_classes):
     """
     draws all predicted classes on one image in different colours
